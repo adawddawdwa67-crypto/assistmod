@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "assistmod",
+  "version": "${version}",
+  "name": "Assist Mod",
+  "description": "TriggerBot and AimAssist modules.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.assistmod.AssistMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
